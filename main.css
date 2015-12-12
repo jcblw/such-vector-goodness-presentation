@@ -49,6 +49,29 @@ html {
 
 .icon-title--heart path {
   fill: tomato;
+  transition: fill .3s ease-in-out .1s;
+}
+
+.icon-title--heart path:hover {
+  fill: crimson;
+}
+
+.icon-list--checkmark {
+    background-image: url(./images/checkmark.svg);
+    height: 10px;
+    width: 15px;
+    background-position: 0 0;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon-list--star {
+    background-image: url(./images/star.svg);
+    height: 7px;
+    width: 7px;
+    background-position: 0 0;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 @keyframes wiggle {
