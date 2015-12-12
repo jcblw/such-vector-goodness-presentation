@@ -1,0 +1,23 @@
+{
+  "name": "such-vector-goodness-presentation",
+  "version": "1.0.0",
+  "description": "slides",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "surge -p ./ -d such-vector-goodness-presentation.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcblw/such-vector-goodness-presentation.git"
+  },
+  "author": "Jacob Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcblw/such-vector-goodness-presentation/issues"
+  },
+  "homepage": "https://github.com/jcblw/such-vector-goodness-presentation#readme",
+  "devDependencies": {
+    "surge": "^0.17.3"
+  }
+}
